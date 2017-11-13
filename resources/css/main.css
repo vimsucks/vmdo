@@ -37,7 +37,7 @@ html {
 body {
     padding: 20px;
     font-family: Menlo, Monaco, monospace;
-    font-size: 14px;
+    font-size: 0.75em;
     line-height: 1.5;
     color: #666;
     background-color: #fff;
