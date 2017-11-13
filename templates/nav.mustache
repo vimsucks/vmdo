@@ -4,12 +4,12 @@
         <p>{{site-sub-title}}</p>
         <ul>
           {{#nav-categories}}
-          <li><a href="{{category-uri}}">{{category-name}}</a></li>
+          <li><a href="{{category-uri}}"><i class="fa fa-folder-o"></i>{{category-name}}</a></li>
           {{/nav-categories}}
-          <li><a href="/tags/">Tags</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="{{github}}">GitHub</a></li>
-          <li><a href="/rss.xml">RSS</a></li>
+          <li><a href="/tags/"><i class="fa fa-tag"></i>Tags</a></li>
+          <li><a href="/about/"><i class="fa fa-user"></i>About</a></li>
+          <li><a href="{{github}}"><i class="fa fa-github"></i>GitHub</a></li>
+          <li><a href="/rss.xml"><i class="fa fa-rss-square"></i>RSS</a></li>
         </ul>
         <form method="get" id="searchform" action="//www.google.com/search">
           <input type="text" class="field" name="q" id="s" placeholder="Search">
