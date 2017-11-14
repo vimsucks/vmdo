@@ -1,5 +1,9 @@
     <div>{{! nav }}
       <header class="masthead">
+        <form method="get" id="searchform" action="//www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="{{site-domain}}">
+        </form>
         <h1 class="masthead-title"><a href="/">{{site-main-title}}</a></h1>
         <p>{{site-sub-title}}</p>
         <ul>
@@ -11,10 +15,6 @@
           <li><a href="{{github}}"><i class="fa fa-github"></i>GitHub</a></li>
           <li><a href="/rss.xml"><i class="fa fa-rss-square"></i>RSS</a></li>
         </ul>
-        <form method="get" id="searchform" action="//www.google.com/search">
-          <input type="text" class="field" name="q" id="s" placeholder="Search">
-          <input type="hidden" name="as_sitesearch" value="{{site-domain}}">
-        </form>
         {{#avatar}}
         <img class="avatar" src="{{avatar}}" />
         {{/avatar}}
