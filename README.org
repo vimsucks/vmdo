@@ -1,4 +1,4 @@
-#+TITLE:	vmdo : modified theme [[https://github.com/kelvinh/org-page][mdo]] of org-page
+#+TITLE:	vmdo : modified theme [[https://github.com/kelvinh/org-page/tree/master/themes/mdo][mdo]] of [[https://github.com/kelvinh/org-page][org-page]]
 #+AUTHOR:	vimsucks
 #+EMAIL:	dev@vimsucks.com
 #+STARTUP:	content
@@ -17,7 +17,7 @@
 
   in your emacs configuration
 
-* Changes which has been made to the origin theme
+* Changes which has been made to the original theme
 
   - add [[https://github.com/hustcc/canvas-nest.js][canvas-nest]] background
   - add [[http://fontawesome.io/][fontawesome]] in navbar
