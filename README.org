@@ -21,3 +21,4 @@
 
   - add [[https://github.com/hustcc/canvas-nest.js][canvas-nest]] background
   - add [[http://fontawesome.io/][fontawesome]] in navbar
+  - switch prettify.js theme to [[https://github.com/bjpbakker/prettify-solarized/][solarized-light]]
